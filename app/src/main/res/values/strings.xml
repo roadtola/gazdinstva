@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pobeda Plus Gazdinstva</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="dodaj_firmu">Dodaj Firmu</string>
+    <string name="firma">Firma</string>
+    <string name="adresa">Adresa</string>
+    <string name="mesto">Mesto</string>
+    <string name="kontakt_osoba">Kontakt Osoba</string>
+    <string name="broj_telefona">Broj Telefona</string>
+    <string name="snimi">Snimi</string>
+    <string name="company_name">Company Name</string>
+</resources>

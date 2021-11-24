@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/popup_dialog_background"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:text="Izaberi Vreme"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:id="@+id/time_popup_title"/>
+
+        <TimePicker
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey"
+            android:layout_margin="15dp"
+            android:timePickerMode="spinner"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/time_time_picker" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Izaberi"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:id="@+id/time_popup_set"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

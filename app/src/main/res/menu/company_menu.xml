@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/company_call"
+        app:showAsAction="never"
+        android:title="Pozovi"/>
+
+    <item
+        android:id="@+id/company_address"
+        app:showAsAction="never"
+        android:title="Adresa"/>
+
+    <item
+        android:id="@+id/company_edit"
+        app:showAsAction="never"
+        android:title="Uredi"/>
+    <item
+        android:id="@+id/company_delete"
+        app:showAsAction="never"
+        android:title="Obrisi"/>
+</menu>

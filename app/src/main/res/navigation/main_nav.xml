@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/home_nav">
+
+    <fragment
+        android:id="@+id/add_company_nav"
+        android:name="com.ebookfrenzy.gazdinstvaa.ui.addCompany.AddCompanyFragment"
+        tools:layout="@layout/add_company_fragment"
+        android:label="Add_company">
+
+        <action
+            android:id="@+id/action_add_company_to_home"
+            app:destination="@+id/home_nav"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/home_nav"
+        android:name="com.ebookfrenzy.gazdinstvaa.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="Home">
+
+        <action
+            android:id="@+id/action_home_to_add_company"
+            app:destination="@+id/add_company_nav" />
+        <action
+            android:id="@+id/action_home_to_find_company"
+            app:destination="@+id/find_company_nav" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/find_company_nav"
+        android:name="com.ebookfrenzy.gazdinstvaa.ui.findCompany.FindCompanyFragment"
+        tools:layout="@layout/find_company_fragment"
+        android:label="Find Company"/>
+
+
+
+</navigation>
